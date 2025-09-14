@@ -232,7 +232,7 @@
                     <h5 class="harga-mulai fs-5">Orthopedic</h5>
                     <h5 class="border-success fs-5 fw-bold">Tusday : 14.00 - 17.00</h5>
                     <h5 class="border-success fs-5 fw-bold">Thursday : 14.00 - 17.00</h5>
-                    <a href="/doctors/dr ifran Sp OT" class="btn btn-success fw-bold fs-6 mt-3">See Details</a>
+                    <a href="/doctors/dr irfan Sp OT" class="btn btn-success fw-bold fs-6 mt-3">See Details</a>
                   </div>
                 </div>
               </div>
