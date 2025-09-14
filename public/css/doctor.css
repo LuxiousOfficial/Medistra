@@ -1,0 +1,44 @@
+.spesialis .gambar{
+    max-width: 30rem;
+    margin-left: 1.5rem;
+}
+
+.spesialis .row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.spesialis .container .row h5 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.spesialis .container .row p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+}
+
+@media (max-width: 998x) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 58%;
+    }
+    .spesialis .gambar{
+        margin-top: 1rem;
+        max-width: 25rem;
+        margin-left: 8rem;
+    }
+}

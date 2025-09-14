@@ -1,0 +1,40 @@
+
+.home-careers .container h3 {
+    margin-top: 6rem;
+}
+
+.home-careers .container .card {
+    border: 2px solid white;
+    width: 19rem;
+    border-radius: 1rem;
+    margin: auto;
+    transition: .3s;
+}
+
+.home-careers .container .card:hover {
+    transform: scale(1.03);
+    border-color: green;
+}
+
+.home-careers .container .btn:hover {
+    background-color: white;
+    color: green;
+}
+
+/* End careers */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 58%;
+    }
+
+    .home-youtube .carousel-inner iframe {
+        height: 22rem;
+    }
+}

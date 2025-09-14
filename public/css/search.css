@@ -1,0 +1,35 @@
+.home-search .container .card {
+    border: 2px solid white;
+    border-radius: 1rem;
+    width: 19rem;
+    margin: auto;
+    transition: .25s;
+}
+
+.home-search .container .btn:hover {
+    background-color: white;
+    color: green;
+}
+
+.home-search .container .card .booking {
+    background-color: red;
+    color: white;
+}
+
+.home-search .container .card .booking:hover {
+    background-color: white;
+    color: red;
+    transition: .25s;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 58%;
+    }
+}
