@@ -52,11 +52,11 @@ class SearchController extends Controller
 
     public function officer(Request $request) {
         if($request->has('search')) {
-            $search = Pelamar::where('namalengkap','LIKE', '%' .$request->search. '%')
+            $search = Officer::where('namalengkap','LIKE', '%' .$request->search. '%')
             ->orWhere('jabatan','LIKE', '%' .$request->search. '%')->get();
         }
         else{
-            $search = Pelamar::latest('id')->get();
+            $search = Officer::latest('id')->get();
         }
 
         return view('/dashboard/officer/index', ['officers' => officer::latest('id')->filter(request(['search']))->paginate(8)]);
