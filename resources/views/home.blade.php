@@ -226,7 +226,7 @@
               </div>
               <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-6 col-6 my-3">
                 <div class="card ev shadow">
-                  <img src="img/dr_ifran Sp.OT.webp" class="card-img-top">
+                  <img src="img/dr_irfan Sp.OT.webp" class="card-img-top">
                   <div class="card-body text-center" style="background-color: whitesmoke; border-radius: 2rem;">
                     <h4 class="card-title fs-4 fw-bold">dr. ifran Sp.OT</h4>
                     <h5 class="harga-mulai fs-5">Orthopedic</h5>
